@@ -1,3 +1,8 @@
+'''
+    Contains code for the Apache Spark application to process the clickstream data.
+'''
+
+# Import necessary libraries
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, countDistinct, avg
 from pyspark.sql.types import StructType, StructField, StringType, IntegerType, FloatType
